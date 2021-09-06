@@ -70,17 +70,17 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-_Setting:_ 
+**_Setting:_** 
 It happens in Iris's home or any other users' home or workplace.
 
-_Players:_
+**_Players:_**
 It involves one lonely user occupied by working, studying or exercising. In my storyboard, Iris is working out while watch fitness video so she couldn't pay attention to the dangerous boiling kettle. Since she is living alone, her families and friends couldn't help her with boiling water and the only helper might be our TickerBell.
 
-###_Activity:_
+**_Activity:_**
 Iris is working out and her room is little far from kitchen and she is fully concentrated on the fitness exercises. She wanted to drink warm water, neither hot nor cold. 
 And the boiling water could be dangerous since boiling water will overflow from the pot.
 
-###_Goals:_ 
+**_Goals:_ **
 Iris's goal is to exercise and to lose weight. And after she finished, she wants to drink warm water for she sweats a lot and feels extremely thirsty.
 The goal of the TickerBell activity is to remind the user when the water or food in impropriate temperature.
 
