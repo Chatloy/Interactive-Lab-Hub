@@ -80,7 +80,7 @@ It involves one lonely user occupied by working, studying or exercising. In my s
 Iris is working out and her room is little far from kitchen and she is fully concentrated on the fitness exercises. She wanted to drink warm water, neither hot nor cold. 
 And the boiling water could be dangerous since boiling water will overflow from the pot.
 
-**_Goals:_ **
+**_Goals:_**
 Iris's goal is to exercise and to lose weight. And after she finished, she wants to drink warm water for she sweats a lot and feels extremely thirsty.
 The goal of the TickerBell activity is to remind the user when the water or food in impropriate temperature.
 
