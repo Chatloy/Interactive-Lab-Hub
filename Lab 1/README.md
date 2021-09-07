@@ -95,10 +95,10 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-1. Could use more colors to represent different temperatures.
-2. Beautifully drawing.
-3. This idea is brilliant and it can free us from keeping an eye on the boiling pot all the time.
-4. I think Jiejun has done a great job in the picturing of the setting-up and background story-telling. However, it may lack of imagination for the idea of using tinkerbelle as the temperature reminder is a little bit common.
+
+1. Beautifully drawing.
+2. This idea is brilliant and it can free us from keeping an eye on the boiling pot all the time.
+3. I think Jiejun has done a great job in the picturing of the setting-up and background story-telling. However, it may lack of imagination for the idea of using tinkerbelle as the temperature reminder is a little bit common.
 
 
 ## Part B. Act out the Interaction
@@ -106,11 +106,12 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
-Yes. During the implemention, I discovered that I made a mistake in the first version of my story-board for I used two different kinds of semaphore in this project. At first, I employed red color to represent the high temperature, while adopting blue to represent the insufficient volume of water. They are two different variables, but I use the same lind of signal to represent them. It could be really confusing to the users. However, during the logical thinking part, I just wanted to develop the product with more functions.
 
+Yes. During the implemention, I discovered that I made a mistake in the first version of my story-board for I used two different kinds of semaphore in one project. At first, I employed red color to represent the high temperature, while adopting blue to represent the insufficient volume of water. They are two different variables, but I use the same lind of signal to represent them. It could be really confusing to the users. However, during the logical thinking part, I just wanted to develop the product with more functions and sometimes may ignore user experience.
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-Yes!(And it's a happy answer.) During the implemention part, I watched some videos of other experiments on using lights or sounds as the reminder. It inspired me that I could use the contiguously varying signal or introduce more colors in this project just as other classmates have suggested. 
-And I also reconsider the whole idea of the temperature reminder because it does seem a little plain and the intelligent appliances could helper us with the temperature issues.So I came up with the new idea to employ the tinkerbell as the Heart rate detector during exercise while Iris need when she is trying to work out. 
+
+Yes!(And it's a happy answer.) After I watched some videos of other experiments on using lights or sounds as the reminder, I was inspired to introduce more colors in this project and different color-pairs may represent different signals but in color-pairs, the two colors should be in sharp contrast in each other to indicate the two difference conditions, like hot or cold. 
+And I also reconsider the whole idea of the temperature reminder because it does seem a little plain and the intelligent appliances could helper us with the temperature issues.So I came up with the new idea to employ the tinkerbell as the Heart rate detector while Iris is working out to help her figure out whether she is . 
 
 ## Part C. Prototype the device
 
@@ -123,6 +124,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
 It seems really cool but a liitle bit troublesome to install it in the environment of Python 3.8.
 
 
@@ -144,12 +146,16 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
+The simple version of the prototyoed interaction:
+https://drive.google.com/file/d/1lQhKNAn4bGiKox5UcS5_9Hn-g0Zxq8Fu/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
