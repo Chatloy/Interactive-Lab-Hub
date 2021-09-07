@@ -108,6 +108,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
 Yes. During the implemention, I discovered that I made a mistake in the first version of my story-board for I used two different kinds of semaphore in one project. At first, I employed red color to represent the high temperature, while adopting blue to represent the insufficient volume of water. They are two different variables, but I use the same lind of signal to represent them. It could be really confusing to the users. However, during the logical thinking part, I just wanted to develop the product with more functions and sometimes may ignore user experience.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
 Yes!(And it's a happy answer.) After I watched some videos of other experiments on using lights or sounds as the reminder, I was inspired to introduce more colors in this project and different color-pairs may represent different signals but in color-pairs, the two colors should be in sharp contrast in each other to indicate the two difference conditions, like hot or cold. 
@@ -123,6 +124,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
+
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
 It seems really cool but a liitle bit troublesome to install it in the environment of Python 3.8.
@@ -133,10 +135,13 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+https://drive.google.com/file/d/1Bc-J_nJhZCUVlQPPKv8Ap9S0vKgxIF4Z/view?usp=sharing
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+https://drive.google.com/file/d/1QV257R2JEnjhFWkFru8zCuIE-KJ6fohX/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -146,20 +151,28 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/imagined-pic.jpg)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+Part of the reason that makes me this way is resources, and I want to save as much as possible. All the time when the pot is not in use, I want to leave the tinkerbelle in the off state.
+But when it approaches boiling point, I want it to go into a very intense red color to alert the user because the boiling stove is very dangerous. 
+Just picture it as the smoke alert.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
 The simple version of the prototyoed interaction:
+
 https://drive.google.com/file/d/1lQhKNAn4bGiKox5UcS5_9Hn-g0Zxq8Fu/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+Actually, in this project, I haven't collaborated with any classmates, which is of course I need to improve about. 
+And thanks my roommates for the feedback of this project.
 
 
 # Staging Interaction, Part 2 
