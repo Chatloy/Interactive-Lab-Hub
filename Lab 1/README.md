@@ -191,7 +191,10 @@ You will be assigned three partners from another group. Go to their github pages
 Their reviews are very real and instructive. And it inspires me to develop a better idea. And here is the summarization of their feedbacks:
 1.(From Yehao Zhang) He thinks this device was used to let people know the temperature of the food when they were cooking. And it's intuitive to use colors to indicate the temperature. But he wondered that in what situations would such a device be better than a kitchen thermometer. 
 
-2.(From Lauren Alexis Tran) Lauren liked the storyboard and the idea about different color conveying different information. However, the video 
+2.(From Lauren Alexis Tran) Lauren liked the storyboard and the idea about different color conveying different information. However, the video didn't fully demonstrate the functionality of the Tinkerbelle because the scene in the background is not reflected in the screen. And Lauren also drew my attention to the fact that users may not notice the red light bulb when they are working-out. 
+
+And much thanks to these classmates, and here's my explanation. 
+I think they are both right about the video. And their concerns about this device are not unfounded. My Tinkerbelle has the similar function to the kitchen thermometer, but with only one specific different character, that is the alarm function about high temperature. However, just as the Lauren said, when users are working out, the red light may fail to cause their attention. And that's the reason I was thinking about changing the red light alert to real and high-frequent sound.
 
 
 ## Make it your own
@@ -202,3 +205,11 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+## The second version story board of the first idea
+
+This idea is using Tinkerbelle as the simplified thermometer which will give out alert.
+## My new Storyboard, which is the story board of the second idea
+
+This idea is using Tinkerbelle as the simplified smart breceket which will give out sedentary alert and provide heart rate monitoring.
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/new_storyboard.png)
