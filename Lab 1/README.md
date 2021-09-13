@@ -186,6 +186,14 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+## It seems I just have two partners from another group and I got their feedbacks. 
+
+Their reviews are very real and instructive. And it inspires me to develop a better idea. And here is the summarization of their feedbacks:
+1.(From Yehao Zhang) He thinks this device was used to let people know the temperature of the food when they were cooking. And it's intuitive to use colors to indicate the temperature. But he wondered that in what situations would such a device be better than a kitchen thermometer. 
+
+2.(From Lauren Alexis Tran) Lauren liked the storyboard and the idea about different color conveying different information. However, the video 
+
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
