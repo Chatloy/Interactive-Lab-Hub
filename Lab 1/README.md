@@ -296,10 +296,8 @@ Just picture it as the smoke alert.
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-The screenshot of the prototyped interaction:
-![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/video-screen.jpg)
-
 The simple version of the prototyped interaction:
+
 https://drive.google.com/file/d/1ACdxe7c3x0z9lo5_2nOB9_6p79PrDmYz/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
