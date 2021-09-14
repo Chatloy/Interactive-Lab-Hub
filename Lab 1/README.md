@@ -112,7 +112,7 @@ Yes. During the implemention, I discovered that I made a mistake in the first ve
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
 Yes!(And it's a happy answer.) After I watched some videos of other experiments on using lights or sounds as the reminder, I was inspired to introduce more colors in this project and different color-pairs may represent different signals but in color-pairs, the two colors should be in sharp contrast in each other to indicate the two difference conditions, like hot or cold. 
-And I also reconsider the whole idea of the temperature reminder because it does seem a little plain and the intelligent appliances could helper us with the temperature issues.So I came up with the new idea to employ the tinkerbell as the Heart rate detector while Iris is working out to help her figure out whether she is . 
+And I also reconsider the whole idea of the temperature reminder because it does seem a little plain and the intelligent appliances could helper us with the temperature issues.So I came up with the new idea to employ the tinkerbell as the Heart rate detector while Iris is working out to help her figure out whether she is doing the effective exercises. 
 
 ## Part C. Prototype the device
 
@@ -127,7 +127,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
-It seems really cool but a liitle bit troublesome to install it in the environment of Python 3.8.
+It seems really cool but a little bit troublesome to install it in the environment of Python 3.8.
 
 
 ## Part D. Wizard the device
@@ -206,10 +206,14 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-## The second version story board of the first idea
+### The second version story board of the first idea
 
 This idea is using Tinkerbelle as the simplified thermometer which will give out alert.
-## My new Storyboard, which is the story board of the second idea
+### My new Storyboard, which is the story board of the second idea
 
 This idea is using Tinkerbelle as the simplified smart breceket which will give out sedentary alert and provide heart rate monitoring.
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/new_storyboard.png)
+
+### My new interaction video, which is about my second idea
+https://drive.google.com/file/d/1ACdxe7c3x0z9lo5_2nOB9_6p79PrDmYz/view?usp=sharing
+
