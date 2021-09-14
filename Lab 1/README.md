@@ -75,10 +75,12 @@ It happens in Iris's home or any other users' home or workplace.
 
 **_Players:_**
 It involves one lonely user occupied by working, studying or exercising. In my storyboard, Iris is working out while watch fitness video so she couldn't pay attention to the dangerous boiling kettle. Since she is living alone, her families and friends couldn't help her with boiling water and the only helper might be our TickerBell.
+And in my second idea, Iris could use this Tinkerbelle as the simplified heart rate detection smart bracelet. And it doesn't have to be a bulb, just different colors of lights. 
 
 **_Activity:_**
 Iris is working out and her room is little far from kitchen and she is fully concentrated on the fitness exercises. She wanted to drink warm water, neither hot nor cold. 
 And the boiling water could be dangerous since boiling water will overflow from the pot.
+
 
 **_Goals:_**
 Iris's goal is to exercise and to lose weight. And after she finished, she wants to drink warm water for she sweats a lot and feels extremely thirsty.
@@ -186,7 +188,7 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
-## It seems I just have two partners from another group and I got their feedbacks. 
+\*\***It seems I just have two partners from another group and I got their feedbacks.**\*\* 
 
 Their reviews are very real and instructive. And it inspires me to develop a better idea. And here is the summarization of their feedbacks:
 1.(From Yehao Zhang) He thinks this device was used to let people know the temperature of the food when they were cooking. And it's intuitive to use colors to indicate the temperature. But he wondered that in what situations would such a device be better than a kitchen thermometer. 
@@ -205,15 +207,104 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+## The second version of my first Tinkerbelle ———— A simplified kitchen thermometer which will give out the high temperature alert
 
-### The second version story board of the first idea
 
-This idea is using Tinkerbelle as the simplified thermometer which will give out alert.
-### My new Storyboard, which is the story board of the second idea
+## My Second Tinkerbelle ———— A simplified smart brecelet which will give out the sedentary alert and provide the heart rate monitoring.
 
-This idea is using Tinkerbelle as the simplified smart breceket which will give out sedentary alert and provide heart rate monitoring.
+### My new Storyboard
+
+This idea is using Tinkerbelle as the simplified smart brecelet which will give out sedentary alert and provide heart rate monitoring.
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/new_storyboard.png)
 
 ### My new interaction video, which is about my second idea
 https://drive.google.com/file/d/1ACdxe7c3x0z9lo5_2nOB9_6p79PrDmYz/view?usp=sharing
+
+## Part A. Plan 
+**_Setting:_** 
+It could happen in Iris's home or anywhere she could work out.
+
+**_Players+Activity:_**
+It involves one  who is doing any types of exercise or even sit. In my storyboard, Iris is working out and she is trying to figure out whether her heart rate is in the efficient exercise range. Or in another condition, she is sitting in front of her computer for so long that the Tinkerbelle would give out sedentary warning.
+She could use this Tinkerbelle as the simplified heart rate detection smart bracelet. And it doesn't have to contain a real bulb, just with different colors of lights. 
+
+**_Goals:_**
+Iris's goal is to exercise and to lose weight.
+Since she had just started exercising and not skilled at most of the cardio exercises, she hired a personal trainer who suggested her to buy an Apple Watch or other heart rate detection smart bracelet. They can measure the heart rate, breathing freguency to help her control the speed of working out in the range of effective exercise, but she was a little short of cash recently. We can use Tinkerbelle to help her.
+The goal of the TinkerBelle is to monitor Iris's heart rate and  present different colors of lights according to different range of heart rate, which means she is in different exercise mode. Moreover, Iris can enjoy other great smart features such as sedentary alerts, sleep monitor(using the heart rate during sleep).
+
+\*\***Include a picture of your storyboard here**\*\*
+
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/new_storyboard.png)
+
+
+Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
+\*\***Summarize feedback you got here.**\*\*
+
+1. Beautifully drawing.
+2. This idea is brilliant and it can free us from keeping an eye on the boiling pot all the time.
+3. I think Jiejun has done a great job in the picturing of the setting-up and background story-telling. However, it may lack of imagination for the idea of using tinkerbelle as the temperature reminder is a little bit common.
+
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+
+Yes. During the implemention, I discovered that I made a mistake in the first version of my story-board for I used two different kinds of semaphore in one project. At first, I employed red color to represent the high temperature, while adopting blue to represent the insufficient volume of water. They are two different variables, but I use the same lind of signal to represent them. It could be really confusing to the users. However, during the logical thinking part, I just wanted to develop the product with more functions and sometimes may ignore user experience.
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+Yes!(And it's a happy answer.) After I watched some videos of other experiments on using lights or sounds as the reminder, I was inspired to introduce more colors in this project and different color-pairs may represent different signals but in color-pairs, the two colors should be in sharp contrast in each other to indicate the two difference conditions, like hot or cold. 
+And I also reconsider the whole idea of the temperature reminder because it does seem a little plain and the intelligent appliances could helper us with the temperature issues.So I came up with the new idea to employ the tinkerbell as the Heart rate detector while Iris is working out to help her figure out whether she is doing the effective exercises. 
+
+## Part C. Prototype the device
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+
+It seems really cool but a little bit troublesome to install it in the environment of Python 3.8. So I use another device to replace it and introduce the sound using as Sedentary Alert.
+
+
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+The prototype interaction takes two to accomplish. And at first time, I was trying to do it by myself and there is no doubt that I failed. So there is no video about the first attemp.
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+https://drive.google.com/file/d/1ACdxe7c3x0z9lo5_2nOB9_6p79PrDmYz/view?usp=sharing
+
+## Part E. Costume the device
+
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+\*\***Include sketches of what your device might look like here.**\*\*
+
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/ideal-version.jpg)
+
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+Part of the reason that makes me this way is resources, and I want to save as much as possible. All the time when the pot is not in use, I want to leave the tinkerbelle in the off state.
+But when it approaches boiling point, I want it to go into a very intense red color to alert the user because the boiling stove is very dangerous. 
+Just picture it as the smoke alert.
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+The simple version of the prototyped interaction:
+
+https://drive.google.com/file/d/1ACdxe7c3x0z9lo5_2nOB9_6p79PrDmYz/view?usp=sharing
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+Thanks a lot to my roommate and she helped my to film the whole interaction process.
 
