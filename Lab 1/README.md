@@ -253,16 +253,13 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
-Yes. During the implemention, I discovered that I made a mistake in the first version of my story-board for I used two different kinds of semaphore in one project. At first, I employed red color to represent the high temperature, while adopting blue to represent the insufficient volume of water. They are two different variables, but I use the same lind of signal to represent them. It could be really confusing to the users. However, during the logical thinking part, I just wanted to develop the product with more functions and sometimes may ignore user experience.
+Yes. I would say it's the sedentary alert part. It's very hard to act it out without real signal since it needs to control two variables: light and sound.
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
-Yes!(And it's a happy answer.) After I watched some videos of other experiments on using lights or sounds as the reminder, I was inspired to introduce more colors in this project and different color-pairs may represent different signals but in color-pairs, the two colors should be in sharp contrast in each other to indicate the two difference conditions, like hot or cold. 
-And I also reconsider the whole idea of the temperature reminder because it does seem a little plain and the intelligent appliances could helper us with the temperature issues.So I came up with the new idea to employ the tinkerbell as the Heart rate detector while Iris is working out to help her figure out whether she is doing the effective exercises. 
 
 ## Part C. Prototype the device
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
 
 It seems really cool but a little bit troublesome to install it in the environment of Python 3.8. So I use another device to replace it and introduce the sound using as Sedentary Alert.
 
@@ -300,6 +297,7 @@ Just picture it as the smoke alert.
 \*\***Take a video of your prototyped interaction.**\*\*
 
 The simple version of the prototyped interaction:
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%201/video-screen.jpg)
 
 https://drive.google.com/file/d/1ACdxe7c3x0z9lo5_2nOB9_6p79PrDmYz/view?usp=sharing
 
