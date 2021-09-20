@@ -60,12 +60,39 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    cur_time = time.strftime("%m/%d/%Y %H:%M:%S") 
+    y = top
+    draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
 
+    month= int(time.strftime('%m'))
+    day = int(time.strftime('%d'))
+    hr = int(time.strftime('%H'))
+    if day==20:
+        msg = 'anniversary'
+    elif month==12 and day==25:
+        msg = 'Merry Christmas!'
+
+    y = y + font.getsize(cur_time)[1]
+    draw.text((x, y), msg, font=font, fill="#FF00FF")
+    
+    if hr > 23 or hr < 1:
+        sleep = 'Time to sleep.Good Night!'
+    elif hr==8 :
+        sleep = 'Time to get up.Good Morning!'
+
+    if not buttonA.value and not buttonB.value:
+        y = y + font.getsize(msg)[1]
+        draw.text((x, y), sleep, font=font, fill="#0000FF")
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
