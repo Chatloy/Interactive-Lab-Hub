@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
+
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -75,9 +76,8 @@ while True:
     cur_time = time.strftime("%m/%d/%Y %H:%M:%S") 
     y = top
     draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
-    print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    print (time.strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
     print("\r", end="", flush=True)
-    sleep(1)
 
     month= int(time.strftime('%m'))
     day = int(time.strftime('%d'))
