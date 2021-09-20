@@ -93,16 +93,16 @@ while True:
       
     
     if hr > 23 or hr < 1:
-        sleep = 'Time to sleep.Good Night!'
+        dayTimer = 'Time to sleep.Good Night!'
     elif hr==8 :
-        sleep = 'Time to get up.Good Morning!'
-    elif hr==16:
-        sleep='Time to study.You are doing a great job'
+        dayTimer = 'Time to get up.Good Morning!'
+    elif hr>9 and hr<20:
+        dayTimer='Time to study.You are doing a great job'
         
 
     if not buttonA.value and buttonB.value:
         y = y + font.getsize(msg)[1]
-        draw.text((x, y), sleep, font=font, fill="#0000FF")
+        draw.text((x, y), dayTimer, font=font, fill="#0000FF")
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
