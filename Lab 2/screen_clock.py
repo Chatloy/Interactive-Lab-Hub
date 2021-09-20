@@ -65,6 +65,8 @@ buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -73,6 +75,9 @@ while True:
     cur_time = time.strftime("%m/%d/%Y %H:%M:%S") 
     y = top
     draw.text((x, y), cur_time, font=font, fill="#FFFFFF")
+    print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    print("\r", end="", flush=True)
+    sleep(1)
 
     month= int(time.strftime('%m'))
     day = int(time.strftime('%d'))
@@ -84,13 +89,21 @@ while True:
 
     y = y + font.getsize(cur_time)[1]
     draw.text((x, y), msg, font=font, fill="#FF00FF")
+
+    if  buttonA.value and not buttonB.value:  
+        y = y + font.getsize(cur_time)[1]
+        draw.text((x, y), msg, font=font, fill="#FF00FF")       
+      
     
     if hr > 23 or hr < 1:
         sleep = 'Time to sleep.Good Night!'
     elif hr==8 :
         sleep = 'Time to get up.Good Morning!'
+    elif hr==16:
+        sleep='Time to study.You are doing a great job'
+        
 
-    if not buttonA.value and not buttonB.value:
+    if not buttonA.value and buttonB.value:
         y = y + font.getsize(msg)[1]
         draw.text((x, y), sleep, font=font, fill="#0000FF")
     # Display image.
