@@ -142,7 +142,8 @@ You can look in `stats.py` for how to display text on the screen!
 
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
-
+#### Display example:
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%202/display_img.jpg)
 
 ## Part D. 
 ### Set up the Display Clock Demo
@@ -161,7 +162,7 @@ Another way for you to edit scripts is to use VNC on your laptop to remotely con
 ## Part E.
 ### Modify the barebones clock to make it your own
 \*\*\***My idea of turning clock pi into the interactive way.**\*\*\*
-I wanted to use the clock pi as the clock reminder.
+I wanted to use the clock pi as the clock/calendar reminder. Since it contains the Day,Month, Year and the exact h/m/s, I was considering utilizing it as both the clock reminder and calendar reminder.
 
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
@@ -184,12 +185,18 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-I wanted to use the clock pi as the alarm clock reminder. That is to say, when it hits the my bed time, I wish it could remind me to go to sleep.
+I wanted to use the clock pi as the clock | calendar reminder. That is to say, it usually only presents the time on the screen.
+And when I press button A, it will show the reminder related to the calendar. For example, today if an anniversary day of your relationship, or the DDL of an important exam or some major holidays. For example, September 20th is the Mid-Autumn Festival, so it will show Happy Mid-Autumn Festival. And on Christmas will show Merry Christmas.
+
+When I press button B, it will be used as a miniature alarm clock. The reminder that shows the time related to the day, such as when to get up or when to study, go to sleep, etc.
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+https://drive.google.com/file/d/1Y7-DsU1v2T4ye-S9TehybqQXqoBWP7Hx/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%202/brain_storm.jpg)
 
 
 # Prep for Part 2
