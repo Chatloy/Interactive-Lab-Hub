@@ -87,9 +87,6 @@ while True:
     elif month==12 and day==25:
         msg = 'Merry Christmas!'
 
-    y = y + font.getsize(cur_time)[1]
-    draw.text((x, y), msg, font=font, fill="#FF00FF")
-
     if  buttonA.value and not buttonB.value:  
         y = y + font.getsize(cur_time)[1]
         draw.text((x, y), msg, font=font, fill="#FF00FF")       
