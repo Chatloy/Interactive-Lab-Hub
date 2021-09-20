@@ -161,7 +161,7 @@ Another way for you to edit scripts is to use VNC on your laptop to remotely con
 ## Part E.
 ### Modify the barebones clock to make it your own
 \*\*\***My idea of turning clock pi into the interactive way.**\*\*\*
-### I wanted to use the clock pi as the clock reminder.
+I wanted to use the clock pi as the clock reminder.
 
 
 Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
@@ -184,7 +184,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
- ### I wanted to use the clock pi as the alarm clock reminder. That is to say, when it hits the my bed time, I wish it could remind me to go to sleep.
+I wanted to use the clock pi as the alarm clock reminder. That is to say, when it hits the my bed time, I wish it could remind me to go to sleep.
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
