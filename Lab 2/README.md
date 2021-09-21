@@ -191,7 +191,7 @@ And when I press button A, it will show the reminder related to the calendar. Fo
 When I press button B, it will be used as a miniature alarm clock. The reminder that shows the time related to the day, such as when to get up or when to study, go to sleep, etc.
 
 \*\*\***Take a video of your PiClock.**\*\*\*
-https://drive.google.com/file/d/1wR4zuI4k6UNUhdocGvILooWLB0cm3j8i/view?usp=sharing
+https://drive.google.com/file/d/1o10CFHqUnj9Vb1XiGRUhynrwa5qTmgcb/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
