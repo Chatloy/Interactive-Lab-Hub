@@ -86,18 +86,22 @@ while True:
         msg = 'anniversary'
     elif month==12 and day==25:
         msg = 'Merry Christmas!'
+    else:
+        msg='Just a normal day!'
 
     if  buttonA.value and not buttonB.value:  
         y = y + font.getsize(cur_time)[1]
         draw.text((x, y), msg, font=font, fill="#FF00FF")       
       
     
-    if hr > 23 or hr < 1:
-        dayTimer = 'Time to sleep.Good Night!'
-    elif hr==8 :
+    if hr > 22 or hr < 1:
+        dayTimer = 'Time to sleep. Good Night!'
+    elif hr==8:
         dayTimer = 'Time to get up.Good Morning!'
-    elif hr>9 and hr<20:
+    elif hr>8 and hr<23:
         dayTimer='Time to study.You are doing a great job'
+    else:
+        dayTimer='Just sleeping!'
         
 
     if not buttonA.value and buttonB.value:
