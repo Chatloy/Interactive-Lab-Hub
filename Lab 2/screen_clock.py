@@ -84,6 +84,8 @@ while True:
     hr = int(time.strftime('%H'))
     if day==20:
         msg = 'anniversary'
+    elif month==9 and day==21:
+        msg = 'Happy Mid-Autumn Festival!'
     elif month==12 and day==25:
         msg = 'Merry Christmas!'
     else:
