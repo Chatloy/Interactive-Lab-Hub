@@ -210,7 +210,8 @@ And when I press button A, it will show the reminder related to the calendar. Fo
 When I press button B, it will be used as a miniature alarm clock. The reminder that shows the time related to the day, such as when to get up or when to study, go to sleep, etc.
 
 \*\*\***Take a video of your PiClock.**\*\*\*
-https://drive.google.com/file/d/1o10CFHqUnj9Vb1XiGRUhynrwa5qTmgcb/view?usp=sharing
+https://drive.google.com/file/d/1Y7-DsU1v2T4ye-S9TehybqQXqoBWP7Hx/view?usp=sharing
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
@@ -234,5 +235,6 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+The final iteraction video:
 
-
+https://drive.google.com/file/d/1o10CFHqUnj9Vb1XiGRUhynrwa5qTmgcb/view?usp=sharing
