@@ -114,7 +114,9 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*<br>
+(1)I think there is a huge difference during transformation from text to the speech since some words are more difficult to say clearly. So I am supposed to choose and adjust the words in the fixed questions.
+(2)I think I could optimize the if-else structure to simply Yes or No.  
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -139,8 +141,12 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/New_storyboard_weather.png)
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/New_storyboard_memo.png)
 
-*Include videos or screencaptures of both the system and the controller.*
+*Include videos or screencaptures of both the system and the controller.*  <br>
+https://drive.google.com/file/d/1Y7-DsU1v2T4ye-S9TehybqQXqoBWP7Hx/view?usp=sharing
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -149,6 +155,9 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+
+First, I think after the adjustment and optimization, the text-to-speech fucntion worked fine. However, the words recognition could be little hard for the device.
+Moreover, I adjusted the structrue to reduce the ask-and-answer part for it is hard to figure out when is the best time to say the prompt and how long the device will react to it. 
 
 ### What worked well about the controller and what didn't?
 
