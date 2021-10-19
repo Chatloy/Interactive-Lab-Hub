@@ -193,7 +193,7 @@ Direction:up/down/left/right<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P3.jpg)
 __P4:__
 Angle/Rotation:volume up(clockwise)/down(counterclockwise)<br>
-![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P4.jpg)
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P4.1.jpg)
 __P5:__
 Direction+Angle/Rotation<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P5.jpg)
