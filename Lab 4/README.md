@@ -171,19 +171,32 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 ### Part C
 ### Physical considerations for sensing
 
-Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
+Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.<br>
+
+I have chosen joystick as my main sensor for it seemed like the controller of the games. And it is able to sense and report the input of the stick for it pivoting angle or direction so I will have multiple designing choices.<br>
+First of all, it could serve as the direction controller for it coul turn up/down/left/right. Ant it seems prefect for the board game or the vehicle navigation since we could only have four directions. As a result, joystick could be used to design several games, such as board games or the simulated racing cars.(P1,P3)<br>
+Moreover, if we could grant different meaning for the four moves which joystick could conduct, it will have more uses.For example, when it turns left, the vehicle would reduce speed, and turning right means speeding up.Here I would see it as the speed controller.(P2)<br>
+Joystick could also be rotated clockwise/counterclockwise. It means joystick could be used as the controller with rotation actions, such as volume adjustment controller or the zoom controller. (P4)<br>
+In P5, it combines both the direction/angle pivoting functions of joystick to construct a remote control system for aircrafts.<br>
+
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***<br>
+Direction:forward/back/left/right<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P1.jpg)
+Direction:up/down + Speed:accelerate/decelerate<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P2.jpg)
+Direction:up/down/left/right<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P3.jpg)
+Angle/Rotation<br>:volume up(clockwise)/down(counterclockwise)
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P4.jpg)
+Direction+Angle/Rotation<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P5.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
+(1)How could I connect the joystick to other part of the devices? I think it's the most important and tricky part of implment all the projects. 
+(2)What would this device look like? I assume after the designing stage, I am supposed to provide several interactive interfaces with other part/most of the part packaged inside.
 **\*\*\*Pick one of these designs to prototype.\*\*\***
-
+I have more interests in P3/P4. And I would save P2/P5 as my final project with the combination of other sensors.
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
