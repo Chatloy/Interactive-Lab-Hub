@@ -243,6 +243,20 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+__P1:__
+Display and joystick are in the same box<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_d_sketches/P1.jpg)
+__P2:__
+Display and joystick are on the same platform<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_d_sketches/P2.jpg)
+__P3:__
+Device and joystick are connected with wires while they are in seperate 'boxes'(meaning being packaged seperately)<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_d_sketches/P3.jpg)
+__P4:__
+Device and joystick are connected with bluetooth or other connection tools<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_d_sketches/P4.png)
+__P5:__
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
