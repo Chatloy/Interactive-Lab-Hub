@@ -182,15 +182,20 @@ In P5, it combines both the direction/angle pivoting functions of joystick to co
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***<br>
 
-\*\*P1:\*\*Direction:forward/back/left/right<br>
+__P1:__
+Direction:forward/back/left/right<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P1.jpg)
-\*\*P2:\*\*Direction:up/down + Speed:accelerate/decelerate<br>
+__P2:__
+Direction:up/down + Speed:accelerate/decelerate<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P2.jpg)
-\*\*P3:\*\*Direction:up/down/left/right<br>
+__P3:__
+Direction:up/down/left/right<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P3.jpg)
-\*\*P4:\*\*Angle/Rotation:volume up(clockwise)/down(counterclockwise)<br>
+__P4:__
+Angle/Rotation:volume up(clockwise)/down(counterclockwise)<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P4.jpg)
-\*\*P5:\*\*Direction+Angle/Rotation<br>
+__P5:__
+Direction+Angle/Rotation<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/part_c_sketches/P5.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
