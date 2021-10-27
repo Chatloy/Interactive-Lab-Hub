@@ -2,21 +2,11 @@ import time
 import subprocess
 import digitalio
 import board
-import busio
-import adafruit_ssd1306
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 import random
 import qwiic_joystick
 import sys
-
-# Create the I2C interface.
-i2c = busio.I2C(board.SCL, board.SDA)
-
-# Create the SSD1306 OLED class.
-# The first two parameters are the pixel width and pixel height.  Change these
-# to the right size for your display!
-oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
