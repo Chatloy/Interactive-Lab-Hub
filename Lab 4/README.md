@@ -1,6 +1,5 @@
 # Sorry about the missing prototype video.
-I have broken my MiniTFT by accident so this lab is late. I have communicated with Professor Ju about this. And I'm sorry for any inconvenience this may have cause.
-I will upload my interaction video as soon as possible and other part I have already accomplished.
+I have broken my MiniTFT by accident. I have borrowed Sky Liu's device to complete my assignment but this lab is not as perfect as I expected it to be. I was expecting to use Qwiic and also Oled to develop the snake game. However, this game would be simplified game without snake, just with direction changes.
 
 # Ph-UI!!!
 
@@ -312,6 +311,9 @@ We encourage you to try using these controls, **while** paying particular attent
 
 ### Part F
 ### Record
+
+The interaction video is here:<br>
+https://drive.google.com/file/d/1-XQ0YHxhtLwa0zUgBeD0J0TV-nVUGsLy/view?usp=sharing
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
