@@ -96,7 +96,7 @@ Twizzler 6 touched!
 experiment<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/touching%20sensor.png)
 video:<br>
-![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/sensor1.mp4)
+https://drive.google.com/file/d/1la-VbXo9pvXfpB-NKYCOEoMAIGUa_Rtc/view?usp=sharing
 
 
 ### Part B
@@ -253,7 +253,8 @@ Think about how you want to present the information about what your sensor is se
 
 experiment<br>
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/oled.png)
-![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/oled.mp4)
+https://drive.google.com/file/d/10qiENqgGqyz2SMvdbqiQ7KFwtboBbRW8/view?usp=sharing
+
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***<br>
 __P1:__
