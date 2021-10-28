@@ -1,6 +1,3 @@
-# Sorry about the missing prototype video.
-I have broken my MiniTFT by accident. I have borrowed Sky Liu's device to complete my assignment but this lab is not as perfect as I expected it to be. I was expecting to use Qwiic and also Oled to develop the snake game. However, this game would be simplified game without snake, just with direction changes.
-
 # Ph-UI!!!
 
 For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -96,6 +93,11 @@ These Twizzlers are connected to pads 6 and 10. When you run the code and touch 
 Twizzler 10 touched!
 Twizzler 6 touched!
 ```
+experiment<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/touching%20sensor.png)
+video:<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/sensor1.mp4)
+
 
 ### Part B
 ### More sensors
@@ -118,6 +120,10 @@ Connect it to your pi with Qwiic connector and try running the three example scr
 ```
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
+
+experiment<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/color_test.png)
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/ges_test.png)
 
 #### Rotary Encoder
 
@@ -244,6 +250,10 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+
+experiment<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/oled.png)
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%204/experiment/idd/oled.mp4)
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***<br>
 __P1:__
@@ -312,8 +322,11 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Part F
 ### Record
 
-The interaction video is here:<br>
-https://drive.google.com/file/d/1-XQ0YHxhtLwa0zUgBeD0J0TV-nVUGsLy/view?usp=sharing
+
+#### The interaction video is here:<br>
+https://drive.google.com/file/d/1-XQ0YHxhtLwa0zUgBeD0J0TV-nVUGsLy/view?usp=sharing<br>
+ 
+I have broken my MiniTFT by accident. I have borrowed Sky Liu's device to complete my assignment but this lab is not as perfect as I expected it to be. I was expecting to use Qwiic and also Oled to develop the snake game. However, this game would be simplified version of snake game without snake, just with direction changes.
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
