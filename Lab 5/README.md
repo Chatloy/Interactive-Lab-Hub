@@ -198,6 +198,9 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+The interaction I chose to design involved the face detection model. The goal of the interaction is to simulate the online log-in system with face recognition. The background would be we have to sign our name to check-in on courses. But it's impossible for students who taking courses via zoom and if someone is late, it's hard for them to find the check-in sheet since it has been passed through somewhere in the classroom. This check-in process takes too much trouble. So I was coming up with idea to use face recogntion to help count the total number of students. And when it detects the face, it will jump to another page and ask students to log in with their passwords. After this, the screen will show message like "Chatloy has logged in. There are 43 students in class now." 
+In this interaction, the camera will search for human face and recogize it. Once a face detection occurs, the screen will increment a count. And the total number will be reported to 'professor'.
+
 
 ### Part C
 ### Test the interaction prototype
@@ -205,15 +208,21 @@ Try out different interaction outputs and inputs.
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+When it was required to detect human faces and count the total number of students.
+2. When does it fail?
+Lots of times. It was actually pretty interesting to watch the model detect what it thought were facial features. I eventually settled on labeling the face as a "count" only if eyes were detected. In addition, I tried putting several objects in front of it that could possibly trip it up to see how robust it could be in face detection.
+Why does it fail?
+I think it's related to the data pre-processing and the model itself. Sometimes, it will recogize some irrelevant lines as human faces.
+3. Based on the behavior you have seen, what other scenarios could cause problems?
+I would if the setting-up behind the faces is quite complex, it may fail.(Such as the unorganized room).
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+Yes. Of course. And in order to achieve better performance of the model, I may suggest them stand in front of the white wall to use it as the background. It will avoid the impact of complex lines.
+2. How bad would they be impacted by a miss classification?
+Actually, the worst case might be the model has recognized some lines as a human face but since there would be no one to log in at that time. So this mis-detection wouldn't cause too much trouble. 
+3. Are there optimizations you can try to do on your sense-making algorithm.
+If I could, I wanted to skip the log-in part but use the face recognition to get their identity and log in for them automatically.
 
 ### Part D
 ### Characterize your own Observant system
