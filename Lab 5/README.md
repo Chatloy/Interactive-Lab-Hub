@@ -1,4 +1,4 @@
-#Sorry about the late
+# Sorry about the late
 So sorry about the late. I have broken my MiniTFT by accident. I have purchased it online but it might take longer to complete this assignment. I was expecting to receive it this Friday. I am so sorry about inconvenience I have caused.
 
 # Observant Systems
