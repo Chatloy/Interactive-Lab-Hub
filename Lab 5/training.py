@@ -70,7 +70,7 @@ except:
 
 
 # Load the model
-model = tensorflow.keras.models.load_model('student_keras_model.h5')
+model = tensorflow.keras.models.load_model('student_pose_keras_model.h5')
 
 labels=[]
 f = open("labels.txt", "r")
