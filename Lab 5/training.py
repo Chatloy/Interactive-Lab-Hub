@@ -100,7 +100,7 @@ def detectState():
 
     # run the inference
     prediction = model.predict(data)
-    print("I think its a:",labels[np.argmax(prediction)])
+    print("I think its a:",labels[0])
     cv2.imwrite('detected_out.jpg',img)
 
 
