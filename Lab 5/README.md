@@ -150,7 +150,10 @@ Each of the installs will take a while, please be patient. After successfully in
 (mpipe) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
 ```
 
-Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
+
+Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. <br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/5.1.jpg)<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/5.2.jpg)<br>
 
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
@@ -190,10 +193,9 @@ This might take a while to get fully installed. After installation, connect your
 (**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
-
-![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/5.1.jpg)<br>
-![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/5.2.jpg)<br>
-
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/normal.jpg)<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/hands-up.jpg)<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/sleepy.jpg)<br>
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -220,8 +222,8 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***<br>
-The interaction I chose to design involved the face detection model. The goal of the interaction is to simulate the online log-in system with face recognition. The background would be we have to sign our name to check-in on courses. But it's impossible for students who taking courses via zoom and if someone is late, it's hard for them to find the check-in sheet since it has been passed through somewhere in the classroom. This check-in process takes too much trouble. So I was coming up with idea to use face recogntion to help count the total number of students. And when it detects the face, it will jump to another page and ask students to log in with their passwords. After this, the screen will show message like "Chatloy has logged in. There are 43 students in class now." 
-In this interaction, the camera will search for human face and recogize it. Once a face detection occurs, the screen will increment a count. And the total number will be reported to 'professor'.
+The interaction I chose to design involved the face detection model. The goal of the interaction is to simulate the online lecturing system with facial recognition. The background would be the online teaching in zoom is quite common currently. However, comparing to the physical in-person lessons, the online lecturing could be troublesome in some technical aspects. For example, it's impossible for students who taking courses via zoom to check in when the course is presenting in the hybrided way. Moreover, on online course, students may not be as concentrated as enough.<br>
+Targetted at these problems, I was hoping to use this Teachable Machines Model to help with an online system with automatic checking-in and also behavior monitoring functions.  That it to say, this system is able to help students automatically check-in and it will product a report such as "Chatloy has logged in. There are 43 students in class now." on the screen. Also, I would use the classification function to tell the state of students, such as normal, hands-up 🙌  or sleepy. And the abnormal state might be reported to professors.<br>
 
 
 ### Part C
@@ -266,5 +268,6 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***<br>
+This interaction video was showing the state switching between the normal and sleepy state.
 
 https://drive.google.com/file/d/1FEGYjd8mYolQgZ5_NXFlymDJm-FLOj2e/view?usp=sharing
