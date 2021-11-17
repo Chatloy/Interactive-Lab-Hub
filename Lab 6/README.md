@@ -1,3 +1,6 @@
+# Sorry about the latency. 
+I have accidentally broken my miniTFT. And I have already borrowed one from classmate and I will finish this assignment no later than tomorrow.
+
 # Little Interactions Everywhere
 
 ## Prep
