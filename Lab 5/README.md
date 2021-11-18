@@ -232,21 +232,41 @@ Targetted at these problems, I was hoping to use this Teachable Machines Model t
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?<br>
-When it was required to detect human faces and count the total number of students.
+When it was required to detect human faces and to clarify the state of students, whether they are sleepy, normal or hands-up.
 2. When does it fail?<br>
-Lots of times. It was actually pretty interesting to watch the model detect what it thought were facial features. I eventually settled on labeling the face as a "count" only if eyes were detected. In addition, I tried putting several objects in front of it that could possibly trip it up to see how robust it could be in face detection.<br>
+(1)Lots of times. It was actually pretty interesting to watch the model detect what it thought were facial features. I eventually settled on labeling the face as a "count" only if eyes were detected. In addition, I tried putting several objects in front of it that could possibly trip it up to see how robust it could be in face detection.<br>
+(2)Also, to implement the classification function, the boundary between sleepy and normal state is really not clear. At first, I wanted to use the state of eyes to identify the difference between sleepy and normal. Then I discovered it's impossible for keep the eye open all the time for 40 minute. So, if we are capturing the picture when the students are blinking, then it will be classified into wrong state which is the sleepy instead of normal.<br>
+So I deliberately selected pictures with a large portion ratio gap between face and hair to train the model.<br>
+For example:
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/n1.jpg)<br>
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%205/imgs/n2.jpg)<br>
+
+(3)About the hands-up state, at first, I didn't think about the difference between the students when they are raising their left hand or right hand. But it is claimed by result that this is one point I need to pay attention to. The position of the hand in the frame will affect the results. So I need to train both raising left hand state and also the raising right hand state.<br>
+
 Why does it fail?<br>
 I think it's related to the data pre-processing and the model itself. Sometimes, it will recogize some irrelevant lines as human faces.<br>
+Same explanation as above.<br>
+(1)The complexity of the background.<br>
+(2)The unclear boundary between the sleepy and normal state.<br>
+(3)The different directions and positions students raising their hands.<br>
+
 3. Based on the behavior you have seen, what other scenarios could cause problems?<br>
-I would if the setting-up behind the faces is quite complex, it may fail.(Such as the unorganized room).<br>
+(1)If the setting-up behind the faces is quite complex, it may fail.(Such as the unorganized room).<br>
+(2)I also think the amount/color of hair may affect the result for currently, I just used my picture to set up the boundary and my hair is dark-colored. I am sure that for people with light-colored hair might have different testing results for my training dataset is not diversed enough.<br>
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?<br>
-Yes. Of course. And in order to achieve better performance of the model, I may suggest them stand in front of the white wall to use it as the background. It will avoid the impact of complex lines.  
+Yes. Of course. And in order to achieve better performance of the model, I may suggest them sit in front of the white wall to use it as the background. It will avoid the impact of complex lines. And if the students don't want to be recognized as sleepy state and be reported to the professor, they might need to stare the screen or at least raise their head.
+
 2. How bad would they be impacted by a miss classification?<br>
-Actually, the worst case might be the model has recognized some lines as a human face but since there would be no one to log in at that time. So this mis-detection wouldn't cause too much trouble.   
+Actually, the worst case might be the model has recognized some lines as a human face but since there would be no one to log in at that time. So this mis-detection wouldn't cause too much trouble. The worst result would be a hard-working student being recognized as sleepy. <br>
+
 3. Are there optimizations you can try to do on your sense-making algorithm.<br>
-If I could, I wanted to skip the log-in part but use the face recognition to get their identity and log in for them automatically.
+(1) If I could, I wanted to skip the log-in part but use the face recognition to get their identity and log in for them automatically. But it is too hard, for I have no access to the face-to-name database and I have no idea about how to connect this database to the RPi.<br>
+(2)I also tried the pose project version of the teachable machine. And I really considered for this classification, if I could use dynamic video detection instead of building models based on static images, the results would be more accurate. <br>
+The above are the optimizations I haven't implemented. The next one has alreay optimized.
+(3)I noticed that while taking courses, students are moving all the time. And it would affect the testing results for when moving, the camera will caputering blurred moving images instead of the standard static pictures which the model required. So I decided to use the button of miniTFT to decide when to capture the picture of students. If we press the button, the camera will take pictures at that moment. So instead of using static model to detect dynamic information, I turned the information static too.
+
 
 ### Part D
 ### Characterize your own Observant system
