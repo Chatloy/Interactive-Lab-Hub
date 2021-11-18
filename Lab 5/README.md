@@ -268,6 +268,6 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***<br>
-This interaction video was showing the state switching between the normal and sleepy state.
+This interaction video was showing the state switching between the normal and sleepy state.<br>
 
-https://drive.google.com/file/d/1FEGYjd8mYolQgZ5_NXFlymDJm-FLOj2e/view?usp=sharing
+https://drive.google.com/file/d/1oQ-sqcSnfZAK5kTCOMp-lxzCEBg3IyE3/view?usp=sharing
