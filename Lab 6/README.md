@@ -151,10 +151,21 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+We designed a simplified version of the poker game that allows players to remotely participate. Our current version of the game only allows two players at a time but the game can be easily modified to support more players. The rules of the game are described as follows:<br>
+1.The players share the score.<br>
+2.At each turn, a random number between -13 to 13 is generated and the number is not shown to the players.<br>
+3.The players take turns and choose "Yes" or "No" to receive or reject the current number.<br>
+4.After ten rounds, the player who holds larger point wins.<br>
 
-**\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+**\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?<br>
+Participants: This game involves 2 players but the game can be easily modified to support more players.<br>
+Time/location: There is no restraint of time and space for we are just like playing the games remote together.<br>
+Operations: Players need to be close enough to the devices to input “Yes” or “No”.<br>
+Sound: No voice input/output is included.<br>
+Input, output and computation: Players provide different input (“Yes” or “No”) at their own risk. The pi prints the output on the screen, showing the current player and sum after adding in the randomly generated number, should players choose to draw cards.<br>
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+Yes. I think this game is very easy to get started. For we only provide two options, yes or no. And the output would just be the points. It is quite straightforward for users to understand.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
