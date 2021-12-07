@@ -167,7 +167,10 @@ Input, output and computation: Players provide different input (“Yes” or “
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 Yes. I think this game is very easy to get started. For we only provide two options, yes or no. And the output would just be the points. It is quite straightforward for users to understand.
 
-**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+**\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.<br>
+https://drive.google.com/file/d/1T0G1AP8Fh_7haIIIsc4N6DwiMFBDtAUw/view?usp=sharing
+
+
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
