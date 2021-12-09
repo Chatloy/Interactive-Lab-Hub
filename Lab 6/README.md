@@ -136,8 +136,6 @@ The second step to achieving our great enlightenment is to run `color.py`. We ha
 
 By running the script, wou will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
 
-(A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
-
 You may ask "but what if I missed class?" Am I not admitted into the collective enlightenment of the *OneColor*?
 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
@@ -168,8 +166,6 @@ Input, output and computation: Players provide different input (“Yes” or “
 Yes. I think this game is very easy to get started. For we only provide two options, yes or no. And the output would just be the points. It is quite straightforward for users to understand.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.<br>
-https://drive.google.com/file/d/1T0G1AP8Fh_7haIIIsc4N6DwiMFBDtAUw/view?usp=sharing
-
 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
