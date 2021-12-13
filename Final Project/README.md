@@ -6,9 +6,9 @@ by Jiejun Tian (jt587), Xiaotian Liu (xl467)
 
 ### Group work distribution
 
-Jiejun Tian: in charge of contribution and implementation of the code. 
-Xiaotian Liu: in charge of the documentation, the prototype building and testing.
-They both participated in ideation, designing, packaging the device and also video filming.
+Jiejun Tian: in charge of contribution and implementation of the code. <br>
+Xiaotian Liu: in charge of the documentation, the prototype building and testing.<br>
+They both participated in ideation, designing, packaging the device and also video filming.<br>
 
 ## Overview
 
