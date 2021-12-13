@@ -42,12 +42,13 @@ Paper Prototype and System Diagram
 ![image](https://github.com/xiaotianliusky/Interactive-Lab-Hub/blob/Fall2021/final-project/paper_proto.jpeg)
 ![image](https://github.com/xiaotianliusky/Interactive-Lab-Hub/blob/Fall2021/final-project/diag.png)
 
-### Design Process
-
 
 ## Demo Video
 
+Creepy Snake with Joystick:<br>
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JY2e56Nll98/0.jpg)](https://www.youtube.com/watch?v=JY2e56Nll98)
+
 
 ## Ideation, Backup Plan and Reflection
 
@@ -60,7 +61,5 @@ There are several issues concerning the initial ideation:
 
 Thus, we decided to implement the Creepy Snake - four directions are all included! Also, we decide to change the way of triggering a Creepy Mode, in order to make the game more universal. We would also expect to add more fun for the game in the future (e.g. facilitate two players and make them compete in the board simoutaniously).
 
-## User Testing
 
-
-Have Fun:)
+#### Have Fun:)
