@@ -38,7 +38,8 @@ def main():
     DISPLAYSURF = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
     BASICFONT = pygame.font.Font('freesansbold.ttf', 18)
     pygame.display.set_caption('Snake- Qwiic Joystick')
-    flamefile = 'Pixel-flame.png'
+    #flamefile = 'Pixel-flame.png'
+    flamefile = 'red.png'
     flame = pygame.image.load(flamefile).convert_alpha()
     flamecell = pygame.transform.scale(flame,(CELLSIZE,CELLSIZE))
     
