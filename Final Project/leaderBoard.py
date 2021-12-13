@@ -24,8 +24,8 @@ def getLeaderboard(gameID):
 
     try:
         response = table.get_item(Key={'GameID': gameID})
-    except ClientError as e:
-        print(e.response['Error']['Message'])
+    #except ClientError as e:
+        #print(e.response['Error']['Message'])
     else:
         return response['Item']
 
