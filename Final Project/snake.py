@@ -230,7 +230,7 @@ def getRandomLocation():
     return {'x': random.randint(0, CELLWIDTH - 1), 'y': random.randint(0, CELLHEIGHT - 1)}
 
 
-def showGameOverScreen(score):
+def showGameOverScreen():
     leaderBoard.addToLeaderBoard("bob", final_score)
     gameOverFont = pygame.font.Font('freesansbold.ttf', 5*MULTIPLIER)
     gameSurf = gameOverFont.render('Game', True, WHITE)
