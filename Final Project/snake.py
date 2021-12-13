@@ -1,6 +1,7 @@
 import random, pygame, sys, smbus, time
 from pygame.locals import *
 import vlc
+import leaderBoard
 
 FPS = 3
 MULTIPLIER = 18
@@ -29,6 +30,10 @@ LEFT = 'left'
 RIGHT = 'right'
 
 HEAD = 0 # syntactic sugar: index of the worm's head
+
+def leaderboard(): 
+    leaderboard = leaderBoard.getLeaderboard('snakeJoystick')
+    return leaderboard["leaders"]
 
 def main():
     global FPSCLOCK, DISPLAYSURF, BASICFONT, flamecell, bus_data, X, Y
@@ -154,7 +159,6 @@ def drawPressKeyMsg():
 
 
 
-# KRT 14/06/2012 rewrite event detection to deal with mouse use
 def checkForKeyPress():
     global bus_data
     
@@ -192,7 +196,6 @@ def showStartScreen():
     #degrees1 = 0
     #degrees2 = 0
     
-#KRT 14/06/2012 rewrite event detection to deal with mouse use
     pygame.event.get()  #clear out event queue
     
     while True:
@@ -208,7 +211,6 @@ def showStartScreen():
         #DISPLAYSURF.blit(rotatedSurf2, rotatedRect2)
 
         drawPressKeyMsg()
-#KRT 14/06/2012 rewrite event detection to deal with mouse use
         if checkForKeyPress():
             return
         pygame.display.update()
@@ -227,6 +229,7 @@ def getRandomLocation():
 
 
 def showGameOverScreen():
+    leaderBoard.addToLeaderBoard("bob", score)
     gameOverFont = pygame.font.Font('freesansbold.ttf', 5*MULTIPLIER)
     gameSurf = gameOverFont.render('Game', True, WHITE)
     overSurf = gameOverFont.render('Over', True, WHITE)
@@ -240,12 +243,11 @@ def showGameOverScreen():
     drawPressKeyMsg()
     pygame.display.update()
     pygame.time.wait(500)
-#KRT 14/06/2012 rewrite event detection to deal with mouse use
     pygame.event.get()  #clear out event queue 
     while True:
         if checkForKeyPress():
+            leaders = leaderboard()
             return
-#KRT 12/06/2012 reduce processor loading in gameover screen.
         pygame.time.wait(100)
 
 def drawScore(score):
