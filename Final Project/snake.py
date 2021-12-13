@@ -56,13 +56,13 @@ def main():
 
 
 def runGame():
-    global bus_data, X, Y
+    global bus_data, X, Y, final_score
     
     ## I2C bus start
     bus = smbus.SMBus(1)
     addr = 0x20
     
-    
+    final_score=0
     # Set a random start point.
     startx = random.randint(5, CELLWIDTH - 6)
     starty = random.randint(5, CELLHEIGHT - 6)
@@ -119,10 +119,12 @@ def runGame():
         # check if the worm has hit itself or the edge
         if wormCoords[HEAD]['x'] == -1 or wormCoords[HEAD]['x'] == CELLWIDTH or wormCoords[HEAD]['y'] == -1 or wormCoords[HEAD]['y'] == CELLHEIGHT:
             p.stop()
+            final_score=len(wormCoords) - 3
             return # game over
         for wormBody in wormCoords[1:]:
             if wormBody['x'] == wormCoords[HEAD]['x'] and wormBody['y'] == wormCoords[HEAD]['y']:
                 p.stop()
+                final_score=len(wormCoords) - 3
                 return # game over
 
         # check if worm has eaten an appl
@@ -228,8 +230,8 @@ def getRandomLocation():
     return {'x': random.randint(0, CELLWIDTH - 1), 'y': random.randint(0, CELLHEIGHT - 1)}
 
 
-def showGameOverScreen():
-    leaderBoard.addToLeaderBoard("bob", score)
+def showGameOverScreen(score):
+    leaderBoard.addToLeaderBoard("bob", final_score)
     gameOverFont = pygame.font.Font('freesansbold.ttf', 5*MULTIPLIER)
     gameSurf = gameOverFont.render('Game', True, WHITE)
     overSurf = gameOverFont.render('Over', True, WHITE)
