@@ -4,6 +4,12 @@ Final Project for Interactive Device Design, INFO5345/CS5424/ECE5413
 
 by Jiejun Tian (jt587), Xiaotian Liu (xl467)
 
+### Group work distribution
+
+Jiejun Tian: in charge of contribution and implementation of the code. 
+Xiaotian Liu: in charge of the documentation, the prototype building and testing.
+They both participated in ideation, designing, packaging the device and also video filming.
+
 ## Overview
 
 At start, the game will begin with a normal mode (normal Snake Game). A certain phrase of easily recognized music (e.g. a scale of Do, Re, Mi, Fa, So) will tune in and repeat. When it comes to the end of the 3rd repeat, the mode will be switched to a Creepy Mode! In the creepy mode, the player should operate in a conversed way, that is, to press UP for going down, press LEFT for going right, etc.
@@ -36,6 +42,9 @@ Paper Prototype and System Diagram
 ![image](https://github.com/xiaotianliusky/Interactive-Lab-Hub/blob/Fall2021/final-project/paper_proto.jpeg)
 ![image](https://github.com/xiaotianliusky/Interactive-Lab-Hub/blob/Fall2021/final-project/diag.png)
 
+### Design Process
+
+
 ## Demo Video
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JY2e56Nll98/0.jpg)](https://www.youtube.com/watch?v=JY2e56Nll98)
@@ -51,5 +60,7 @@ There are several issues concerning the initial ideation:
 
 Thus, we decided to implement the Creepy Snake - four directions are all included! Also, we decide to change the way of triggering a Creepy Mode, in order to make the game more universal. We would also expect to add more fun for the game in the future (e.g. facilitate two players and make them compete in the board simoutaniously).
 
-Have Fun:)
+## User Testing
 
+
+Have Fun:)
