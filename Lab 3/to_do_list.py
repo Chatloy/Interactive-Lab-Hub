@@ -41,7 +41,6 @@ display.fill(color565(0, 255, 0))
 
 pygame.mixer.init()
 
-# states = ["step1", "step2", "step3", "step4", "step5"]
 curstate = 0
 musics=[]
 
