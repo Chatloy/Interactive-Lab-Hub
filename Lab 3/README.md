@@ -148,7 +148,7 @@ The system should:
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/New_storyboard_memo.png)
 
 *Include videos or screencaptures of both the system and the controller.*  <br>
-https://drive.google.com/file/d/1Y7-DsU1v2T4ye-S9TehybqQXqoBWP7Hx/view?usp=sharing
+https://drive.google.com/file/d/1813y5eo4RTooYiMEvysU-aG5ZKUbMRDR/view?usp=sharing
 
 
 ## Test the system
