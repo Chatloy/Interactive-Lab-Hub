@@ -57,6 +57,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 #### The file is called text2speech_example.sh
+https://drive.google.com/file/d/1NwRt2AOsJ3bXe6tu3WPxW3szXN2vqf2Z/view?usp=sharing
+
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
