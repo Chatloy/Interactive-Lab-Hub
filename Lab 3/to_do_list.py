@@ -55,7 +55,7 @@ for filename in files:
         print('find audio %s'%filename)
 
 
-pygame.mixer.music.load("audios/Step1.wav")
+pygame.mixer.music.load("audios/record.wav")
 onpause = True
 # pygame.mixer.music.play()
 # while pygame.mixer.music.get_busy() == True:
