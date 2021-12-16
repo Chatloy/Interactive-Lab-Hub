@@ -148,7 +148,8 @@ The system should:
 ![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%203/New_storyboard_memo.png)
 
 *Include videos or screencaptures of both the system and the controller.*  <br>
-https://drive.google.com/file/d/1813y5eo4RTooYiMEvysU-aG5ZKUbMRDR/view?usp=sharing
+https://drive.google.com/file/d/1813y5eo4RTooYiMEvysU-aG5ZKUbMRDR/view?usp=sharing<br>
+https://youtu.be/uinNoeZEEN8
 
 
 ## Test the system
@@ -160,18 +161,19 @@ Answer the following:
 \*\**your answer here*\*\*
 
 First, I think after the adjustment and optimization, the text-to-speech fucntion worked fine. However, the words recognition could be little hard for the device.
-Moreover, I adjusted the structrue to reduce the ask-and-answer part for it is hard to figure out when is the best time to say the prompt and how long the device will react to it. 
+Moreover, I adjusted the structrue to reduce the ask-and-answer part because it is hard to figure out when is the best time to say the prompt and how long the device will react to it. <br>
+Another missing part of this system is the intelligent asking and answering part. That is to say, the device is currently unable to answer the questions which I have't prepared answers for it. I tried to use the speech_to_text.sh to help with controlling the device with my voice but it is hard to recognize each word right. So I have to set up the prepared answer for each question. But it could interact with users.
 
 ### What worked well about the controller and what didn't?
 
 \*\**your answer here*\*\*
+I set up two controllers for the system. One is the button which is very stable and well-functioning in each condition. The other one is voice controlling which performs poorly. For the device couldn't get what I am trying to say each time.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
 \*\**your answer here*\*\*
-
+Currently the voice input rely on WoZ interaction. But it fullfils the need of learning user's voice behavior. Maybe for future autonomous version, voice controlling would perform better with more advanced models.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
 \*\**your answer here*\*\*
-
+Another modalities to capture is image recognition. It would be helpful for the device to obtain the content of to-do-list by capturing the screenshot of the to-do-list instead of current method which requires the user input each time.<br>
+As for more interaction related to the weather, I could also create a word dataset, it would recored and anaylze the user's wording related to whether to move forward to the exact temperature and suggestions for outfit or not. The word frequency and ordering should be reflected in the dataset.
