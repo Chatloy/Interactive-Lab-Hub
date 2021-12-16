@@ -57,6 +57,8 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 ![publish settings](imgs/mqtt_explorer_2.png?raw=true)
 
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%206/1.png)
+
 
 ### Part B
 ### Send and Receive on your Pi
@@ -86,8 +88,19 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   (circuitpython) pi@ixe00:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
   ...
   ```
+  
+  
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%206/2.png)
+
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+1.Doorbell. Use this system to notify the house owners whether there is intruder.
+2.Notification for course change,such as the notifications on the canvas, the grading, the ddl for assignments and whether the course is zoom or not.
+3.Interactive games which involves more than two people.
+(1)poker game
+(2)'Draw-and-Guess' Game
+5.Smart Home. Use the distributed system to implement the controlling remotely. For example, I can turn off the sweeping robot while I am outside.
+
 
 ### Part C
 ### Streaming a Sensor
@@ -109,6 +122,7 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![Chatloy](https://github.com/Chatloy/Interactive-Lab-Hub/blob/Fall2021/Lab%206/3.png)
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
